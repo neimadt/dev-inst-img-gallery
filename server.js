@@ -1,10 +1,8 @@
 import fs from 'fs/promises';
 import express from 'express';
-import { config as dotenvConfig } from 'dotenv';
 import path, { dirname } from 'path';
 import { fileURLToPath } from 'url';
 
-dotenvConfig();
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 
