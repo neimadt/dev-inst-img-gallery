@@ -46,5 +46,5 @@ app.get('/img-details/:name', async (req, res) => {
 const PORT = process.env.PORT || 5173;
 
 app.listen(PORT, () => {
-    console.log(`Running on http://localhost:${PORT}`);
+    console.log(`Running on http://${process.env.HOST}:${PORT}`);
 });
